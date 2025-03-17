@@ -31,6 +31,10 @@ This program creates and diagonalizes Hückel matrices based on input parameters
 ```bash
 make
 ```
+4. To clean the compilation:
+```bash
+make clean
+```
 
 This will create the executable named `HUCKEL`.
 
