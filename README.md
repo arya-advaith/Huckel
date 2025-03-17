@@ -67,22 +67,6 @@ Where:
    - `eigenvalues_.txt`: Contains the eigenvalues (orbital energies)
    - `eigenvectors.txt`: Contains the eigenvectors (orbital coefficients)
 
-### Visualization with Python
-
-The repository includes a Python script (`fileopen.py`) for visualizing eigenvalue data:
-
-```bash
-python fileopen.py
-```
-
-This script:
-- Reads eigenvalue files for various system sizes (from 4 to 1024 atoms)
-- Creates plots displaying the eigenvalue distribution
-- Generates both full system and half-filled system visualizations
-- Saves the output as `eigenvalues_1a1b1close.png`
-
-The visualization assumes you have generated eigenvalue files for different system sizes with the naming convention `eigenvalues_Ne_1a1b1close.txt` where N is the number of atoms.
-
 ## Input File Format
 
 The program can handle different input formats, including:
@@ -105,6 +89,22 @@ In this example:
 
 ## Technical Details
 
+### Atom and Bond Alternation
+
+- The atom alternation and bond alternation results are present in the following folders:
+    1. ```bond_alternation/```
+
+    2. ```atom_alternation/```
+
+- After entering the folders, 2 more directories namely:
+    1. ```open/```
+    2. ```close/```
+
+- There exists the files ranging from 4 atoms to about 1024 atoms. There also exists the subsequent plot to visualize the Eigenvalues and Fermi Level.
+
+- The ```file_open.py ``` is the python scipt to plot the Fermi Level and Eigenvalues.
+
+
 ### Matrix Construction
 
 - For linear systems (OPEN = 1): Only neighboring atoms are connected
@@ -119,8 +119,8 @@ The program uses LAPACK's `dgeev` function to calculate the eigenvalues and eige
 ### Visualization
 
 The Python script creates a multi-panel figure that shows:
-- Left panels: Full eigenvalue spectrum for each system size
-- Right panels: Lower half of the eigenvalue spectrum (occupied orbitals when half-filled)
+- Left panels: Even number of atoms with full electron occupation and half electron occupation.
+- Right panels: Odd number of atoms with full electron occupation and half electron occupation.
 
 This visualization is particularly useful for studying trends in electronic structure as system size increases.
 
