@@ -129,7 +129,7 @@ This visualization is particularly useful for studying trends in electronic stru
 ### Memory Management
 
 The code includes proper memory management: [This part was taken from another TCCM course (Advanced Computational Techniques HW)]
-LINK: https://github.com/scemama/tccm-homeworks
+LINK: https://github.com/scemama/tccm-homeworks (inside project3/dynamics.pdf)
 - Dynamic allocation for matrices and arrays
 - Custom 2D array allocation and deallocation functions
 - Proper cleanup of all allocated resources
