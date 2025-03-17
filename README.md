@@ -13,7 +13,7 @@ This program creates and diagonalizes Hückel matrices based on input parameters
 - Support for both linear and cyclic molecular structures
 - Customizable alpha (diagonal) and beta (off-diagonal) parameters
 - Handling of alternating alpha and beta values for heterogeneous systems
-- Efficient diagonalization using LAPACK library
+- Efficient diagonalization using LAPACKE library
 - Output of eigenvalues and eigenvectors to separate files
 - Visualization tools for eigenvalue analysis
 
