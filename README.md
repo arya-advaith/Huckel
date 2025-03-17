@@ -135,30 +135,34 @@ The code includes proper memory management:
 
 ### Inferences from the Graphs:
 
+#### Atom and Bond alternation system which also happens to be cyclic: [ 2 $\alpha$ and 2 $\beta$]
+
 ![image alt](https://github.com/arya-advaith/Huckel/blob/main/atom_alternation/close/eigenvalues_2a2b1close.png)
 
-- This is the image for the Atom and Bond alternation system which also happens to be cyclic.
 - As seen from the image, the Fermi Level for larger atoms tend towards:
   1) E = -1.744 Ha for Half occpuied system [1 electron for 2 atoms].
   2) E =  0.3944 Ha for even atoms and 2.514 Ha for odd atoms if fully occupied [1 electron per atom].
+  
+#### Atom and Bond alternation system which also happens to be linear or open: [ 2 $\alpha$ and 2 $\beta$]
 
 ![image alt](https://github.com/arya-advaith/Huckel/blob/main/atom_alternation/open/eigenvalues_2a2b1open.png)
 
-- This is the image for the Atom and Bond alternation system which also happens to be linear or open.
 - As seen from the image, the Fermi Level for larger atoms tend towards:
   1) E = -1.74 Ha for Half occpuied system [1 electron for 2 atoms].
   2) E =  2 Ha if fully occupied [1 electron per atom].
 
+#### Bond alternation system which also happens to be cyclic: [ 1 $\alpha$ and 2 $\beta$]
+
 ![image alt](https://github.com/arya-advaith/Huckel/blob/main/bond_alternation/close/eigenvalues_1a2b1close.png)
 
-- This is the image for the Bond alternation system which also happens to be cyclic.
 - As seen from the image, the Fermi Level for larger atoms tend towards:
   1) E = -3.38 Ha for Half occpuied system [1 electron for 2 atoms].
   2) E =  -1 Ha for even atoms and 2 Ha for odd atoms if fully occupied [1 electron per atom].
 
+#### Bond alternation system which also happens to be linear or open: [ 1 $\alpha$ and 2 $\beta$]
+
 ![image alt](https://github.com/arya-advaith/Huckel/blob/main/bond_alternation/open/eigenvalues_1a2b1open.png)
 
-- This is the image for the Bond alternation system which also happens to be linear or open.
 - As seen from the image, the Fermi Level for larger atoms tend towards:
   1) E = -3.38 Ha for Half occpuied system [1 electron for 2 atoms].
   2) E =  2 Ha if fully occupied [1 electron per atom].
