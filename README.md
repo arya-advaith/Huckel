@@ -20,14 +20,14 @@ This program creates and diagonalizes Hückel matrices based on input parameters
 ## Requirements
 
 - GCC compiler
-- LAPACK and LAPACKE libraries
+- LAPACKE libraries
 - Standard C libraries (stdio.h, stdlib.h, math.h)
 - Python with pandas and matplotlib (for visualization)
 
 ## Installation
 
 1. Clone this repository
-2. Ensure LAPACK and LAPACKE are installed on your system
+2. Ensure LAPACKE is installed on your system
 3. Compile the program using the included makefile:
 
 ```bash
@@ -116,7 +116,7 @@ In this example:
 
 ### Diagonalization
 
-The program uses LAPACK's `dgeev` function to calculate the eigenvalues and eigenvectors of the Hückel matrix. This provides an efficient solution for large matrices.
+The program uses LAPACKE's `dgeev` function to calculate the eigenvalues and eigenvectors of the Hückel matrix. This provides an efficient solution for large matrices.
 
 ### Visualization
 
