@@ -1,3 +1,5 @@
+# DISCLAIMER: IT IS BEST SUITED TO READ THIS FILE AT https://github.com/arya-advaith/Huckel/ .
+
 # Hückel Method Matrix Solver
 
 A computational tool for building and diagonalizing Hückel matrices for molecular orbital calculations in quantum chemistry.
