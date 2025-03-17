@@ -1,0 +1,5 @@
+ATOM_NUMBER 10001 
+ALPHA 2 
+BETA  -2 -5  
+OPEN 0
+ 
