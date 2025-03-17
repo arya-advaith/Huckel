@@ -24,7 +24,7 @@ for i, color in zip(list, colors):
 
     # Use the same color for scatter and axhlines
     ax[0].scatter(f, x[0], alpha=0.7, label=str(i) + ' atoms', color=color)
-    ax[1].scatter(f1, x1[0], alpha=0.7, label=str(i) + ' atoms', color=color)
+    ax[1].scatter(f1, x1[0], alpha=0.7, label=str(i+1) + ' atoms', color=color)
 
     # Full electron line and text for first plot
     full_e_value = x.iloc[int(len(x)/2)-1].values[0]
