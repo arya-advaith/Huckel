@@ -20,14 +20,14 @@ This program creates and diagonalizes Hückel matrices based on input parameters
 ## Requirements
 
 - GCC compiler
-- LAPACKE libraries
+- LAPACKE (and LAPACK) libraries
 - Standard C libraries (stdio.h, stdlib.h, math.h)
 - Python with pandas and matplotlib (for visualization)
 
 ## Installation
 
 1. Clone this repository
-2. Ensure LAPACKE is installed on your system
+2. Ensure LAPACKE (theorugh LAPACK) is installed on your system
 3. Compile the program using the included makefile:
 
 ```bash
