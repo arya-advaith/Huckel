@@ -64,7 +64,7 @@ Where:
 ```
 
 3. The program will generate two output files:
-   - `eigenvalues_.txt`: Contains the eigenvalues (orbital energies)
+   - `eigenvalues_.txt`: Contains the eigenvalues (orbital energies) most probably in atomic units (Hartree `Ha`)
    - `eigenvectors.txt`: Contains the eigenvectors (orbital coefficients)
 
 ## Input File Format
@@ -130,6 +130,17 @@ The code includes proper memory management:
 - Dynamic allocation for matrices and arrays
 - Custom 2D array allocation and deallocation functions
 - Proper cleanup of all allocated resources
+
+### Inferences from the Graphs:
+
+[alt text](https://github.com/arya-advaith/Huckel/blob/main/atom_alternation/close/eigenvalues_2a2b1close.png)
+
+- This is the image for the Atom and Bond alternation system which also happens to be cyclic.
+- As seen from the image, the Fermi Level for larger atoms tend towards:
+  1) E = -1.744 Ha for Half occpuied system [1 electron for 2 atoms].
+  2) E =  0.3944 Ha for even atoms and 2.514 Ha for odd atoms if fully occupied [1 electron per atom].
+
+[alt text](https://github.com/arya-advaith/Huckel/blob/main/atom_alternation/close/eigenvalues_2a2b1close.png)
 
 ## License
 
