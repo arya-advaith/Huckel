@@ -1,4 +1,4 @@
-# DISCLAIMER: IT IS BEST SUITED TO READ THIS FILE AT https://github.com/arya-advaith/Huckel/ . This code is written in C :/
+# DISCLAIMER: IT IS BEST SUITED TO READ THIS FILE AT https://github.com/arya-advaith/Huckel/.
 
 # Hückel Method Matrix Solver
 
